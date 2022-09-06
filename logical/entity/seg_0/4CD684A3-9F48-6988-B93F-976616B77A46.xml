@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4CD684A3-9F48-6988-B93F-976616B77A46" name="commande">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:26:25 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_com" id="8BA30AE9-362D-0949-81F2-929DD14F4CA5">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:26:40 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_comm" id="07E566F7-1D2F-17B6-EEB1-A867DD9E5077">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:27:35 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="statut" id="4FCEFBDF-3F65-D286-C6C5-2932C9855155">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:28:22 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="complete" description=""/>
+<valueDef value="cuisson" description=""/>
+<valueDef value="nouvelle" description=""/>
+<valueDef value="prete" description=""/>
+</listOfValues>
+<defaultValue>nouvelle</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_client" id="6B08DC6E-EB5D-B07E-F336-E725B35838B6">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:46:51 UTC</createdTime>
+<generatorID>60ECEB4B-3A48-F476-B69A-AD0FEBB9D598</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<referedAttribute>4342DDD2-DE04-7409-A5D9-0ED727224B17</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_employe" id="8282FD47-8E3B-9A42-5742-C937A1E6523D">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:50:35 UTC</createdTime>
+<generatorID>8EE33B7A-0CA7-0D33-B297-8A1FBC8D863B</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<referedAttribute>02E72F5B-807F-A505-2CC9-D2F826AF65DF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7BF4C1E0-0883-07FD-BE8A-9DF6DE68CBF2" name="commande PK">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:27:23 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8BA30AE9-362D-0949-81F2-929DD14F4CA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

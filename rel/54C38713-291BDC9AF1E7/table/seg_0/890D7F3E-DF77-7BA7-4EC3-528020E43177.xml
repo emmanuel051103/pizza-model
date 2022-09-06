@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="890D7F3E-DF77-7BA7-4EC3-528020E43177" name="Client">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:04:30 UTC</createdTime>
+<generatorID>56BD15BE-90BB-D15E-8889-B7FAE649ED73</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_client" id="26CC53AE-9DE7-CF55-A139-E3DB68CDB86F">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:04:30 UTC</createdTime>
+<generatorID>4342DDD2-DE04-7409-A5D9-0ED727224B17</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="17C18FFE-C5AC-E85A-4623-D91B1479242B">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:04:30 UTC</createdTime>
+<generatorID>A18F56A2-0FAE-1B07-D2DE-FE54A0866F97</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="addresse" id="C92BC5BC-A6B4-10EE-A8A3-E7791B19ECA8">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:04:30 UTC</createdTime>
+<generatorID>C98205CC-824E-EBDC-5281-A269AAB91D9B</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 CHAR</dataTypeSize>
+<ownDataTypeParameters>200 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telephone" id="CB514DAA-7013-1560-EC00-2DE87ED4F8E8">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:04:30 UTC</createdTime>
+<generatorID>6558FED4-C23C-81A9-9B7B-51C271F16A05</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="courriel" id="A156EF8B-2435-E689-7942-7386D78FBD11">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:04:30 UTC</createdTime>
+<generatorID>C78D46F1-1455-0EEB-3052-8F057CBFBD9A</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_utilisateur" id="1AA2CED4-C19E-90C1-666C-703E1A278690">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:04:30 UTC</createdTime>
+<generatorID>D754316C-DD06-536D-01CD-171EEE2EA9C3</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2EB0FDF1-6A7D-9B8B-FAD5-4383711C686D" name="Client_PK">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:04:30 UTC</createdTime>
+<generatorID>D986241B-FFB6-D96D-907D-59985C235D03</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26CC53AE-9DE7-CF55-A139-E3DB68CDB86F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

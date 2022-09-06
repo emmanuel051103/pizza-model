@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2AC33E5A-FEA0-A307-C355-1A67D7EA3475" name="commande">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:33:53 UTC</createdTime>
+<generatorID>4CD684A3-9F48-6988-B93F-976616B77A46</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_com" id="7ADCE7AB-13C9-2D1D-3B35-CE030A202233">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:33:53 UTC</createdTime>
+<generatorID>8BA30AE9-362D-0949-81F2-929DD14F4CA5</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_comm" id="0B2FAAF7-8A4D-7AC2-8211-2B94806C62C4">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:33:53 UTC</createdTime>
+<generatorID>07E566F7-1D2F-17B6-EEB1-A867DD9E5077</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="statut" id="F4ABA270-FF5F-EC9E-C32E-6D049E39838C">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:33:53 UTC</createdTime>
+<generatorID>4FCEFBDF-3F65-D286-C6C5-2932C9855155</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="complete" description=""/>
+<valueDef value="cuisson" description=""/>
+<valueDef value="nouvelle" description=""/>
+<valueDef value="prete" description=""/>
+</listOfValues>
+<defaultValue>nouvelle</defaultValue>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Client_id_client" id="D69728DF-0E01-8F2F-9DA6-F5DE0C3507E8">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 04:00:11 UTC</createdTime>
+<generatorID>6B08DC6E-EB5D-B07E-F336-E725B35838B6</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1D181A8F-F4D7-C960-FF7B-69415E7A2D72" referredColumn="26CC53AE-9DE7-CF55-A139-E3DB68CDB86F"/>
+</associations>
+</Column>
+<Column name="employe_id_employe" id="A3D07E40-9674-088D-E618-EFCBA9B164E2">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 04:00:11 UTC</createdTime>
+<generatorID>8282FD47-8E3B-9A42-5742-C937A1E6523D</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="771DD156-177C-0F58-78FC-2AA2200E282F" referredColumn="0AAB7793-3388-8B84-1C28-B42D97842440"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="184C77DC-F00E-3A93-61EE-5EDB405CC601" name="commande_PK">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:33:53 UTC</createdTime>
+<generatorID>7BF4C1E0-0883-07FD-BE8A-9DF6DE68CBF2</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ADCE7AB-13C9-2D1D-3B35-CE030A202233"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="708CB93D-0841-E9F4-D9A6-66B421BFD38B" name="commande_Client_FK">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 04:00:11 UTC</createdTime>
+<generatorID>60ECEB4B-3A48-F476-B69A-AD0FEBB9D598</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D69728DF-0E01-8F2F-9DA6-F5DE0C3507E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57686DCB-524E-7DAB-59F3-E846340C9D1A" name="commande_employe_FK">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 04:00:11 UTC</createdTime>
+<generatorID>8EE33B7A-0CA7-0D33-B297-8A1FBC8D863B</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D07E40-9674-088D-E618-EFCBA9B164E2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

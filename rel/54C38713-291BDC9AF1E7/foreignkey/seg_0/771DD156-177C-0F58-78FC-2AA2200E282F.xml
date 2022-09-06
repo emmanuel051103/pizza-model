@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="771DD156-177C-0F58-78FC-2AA2200E282F" containerWithKeyObject="2AC33E5A-FEA0-A307-C355-1A67D7EA3475" localFKIndex="57686DCB-524E-7DAB-59F3-E846340C9D1A" name="commande_employe_FK">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 04:00:11 UTC</createdTime>
+<generatorID>8EE33B7A-0CA7-0D33-B297-8A1FBC8D863B</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<referredTableLongName>employe</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A7E20253-B47D-F34D-AE37-1CA905A8C243</referredTableID>
+<keyObject>E93B0CC4-402F-65A1-6D21-DC10BD48E54A</keyObject>
+<referredKeyID>E93B0CC4-402F-65A1-6D21-DC10BD48E54A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_employe</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

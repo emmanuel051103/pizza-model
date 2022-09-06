@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="produit_item_comm" directorySegmentName="seg_0" id="7F4893F9-00E9-8A38-8452-1AA43D3F7343">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 04:04:28 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<sourcePk>37379B52-1CAD-1255-41FA-B053E3EC2A00</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>lier</nameOnSource>
+<nameOnTarget>etre lie</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CC34E0A1-1CB9-0195-C08F-2711CD7FC429</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>AAD8A3AF-7323-3B3C-CBA1-85F7144A4396</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

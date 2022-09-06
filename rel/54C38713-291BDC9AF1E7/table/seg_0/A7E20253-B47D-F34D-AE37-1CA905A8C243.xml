@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7E20253-B47D-F34D-AE37-1CA905A8C243" name="employe">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:22:59 UTC</createdTime>
+<generatorID>1203E424-55DA-7EDD-88C9-6BEEC47AEE7D</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_employe" id="0AAB7793-3388-8B84-1C28-B42D97842440">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:22:59 UTC</createdTime>
+<generatorID>02E72F5B-807F-A505-2CC9-D2F826AF65DF</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="CD65C5A1-8A9C-B185-5BA0-87EE228502EA">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:22:59 UTC</createdTime>
+<generatorID>18A24682-B478-8BE5-C9F0-8140FEBE131C</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<listOfValues>
+<valueDef value="employe" description=""/>
+<valueDef value="patron" description=""/>
+</listOfValues>
+<defaultValue>employe</defaultValue>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom" id="FC536320-0315-A289-A899-A03CFEEF459D">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:22:59 UTC</createdTime>
+<generatorID>0E0435E8-B8A1-FBA0-0ABC-8E38F26981A5</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_utilisateur" id="857B7258-BBD7-6C1B-AF35-FBFE9990DBFF">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:22:59 UTC</createdTime>
+<generatorID>8306A18C-80AD-664A-AD62-EDBCCEA654F5</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E93B0CC4-402F-65A1-6D21-DC10BD48E54A" name="employe_PK">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:22:59 UTC</createdTime>
+<generatorID>C9918CA8-4DF2-6E17-C444-5621F76DF50A</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0AAB7793-3388-8B84-1C28-B42D97842440"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

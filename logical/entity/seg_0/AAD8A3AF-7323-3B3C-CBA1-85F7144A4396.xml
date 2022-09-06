@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AAD8A3AF-7323-3B3C-CBA1-85F7144A4396" name="item_comm">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:37:02 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="no_item" id="C16439EA-B904-5C80-74D5-2F1CBB391756">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:37:24 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantite" id="C6DFE50D-4A26-8885-68A2-04EFCB47AEA4">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:38:16 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="grandeur" id="A3E4446D-5EAA-AE9D-710A-B7F63D1D37FB">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:38:52 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_com" id="65DBAA86-C174-6FBD-E88D-30169C220C89">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:53:28 UTC</createdTime>
+<generatorID>CC4DB2B9-F7FA-8BDA-160B-F029D9142D40</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<referedAttribute>8BA30AE9-362D-0949-81F2-929DD14F4CA5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produit" id="163EA468-4B9E-F368-A42C-34614DD625F6">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 04:04:28 UTC</createdTime>
+<generatorID>7F4893F9-00E9-8A38-8452-1AA43D3F7343</generatorID>
+<ownerDesignName>pizza model</ownerDesignName>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="true"/>
+</engineerTo>
+<referedAttribute>0C6D42FA-7125-0FF0-CC1A-BF881F4C0FA2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE3C4F85-2A7C-007D-26BC-1F2FA7ADCDDD" name="item_comm PK">
+<createdBy>jeanc</createdBy>
+<createdTime>2022-09-05 03:37:46 UTC</createdTime>
+<ownerDesignName>pizza model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="54C38713-5155-854A-18E6-291BDC9AF1E7" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C16439EA-B904-5C80-74D5-2F1CBB391756</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
